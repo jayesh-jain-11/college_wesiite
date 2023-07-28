@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body{
+    background-image: linear-gradient(rgb(145, 145, 103),rgb(136, 120, 120),rgb(156, 81, 81));
+}
+.navbar{
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color:rgba(211, 57, 57, 0.281);
+    padding-left: 50px;
+}
+.name{
+    display: flex;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 8px;
+}
+.name img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.container{
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 20px;
+    background-image: linear-gradient(rgb(33, 25, 110),rgba(51, 140, 199, 0.589));
+    background-color: rgb(33, 25, 110);
+    height: 280px;
+    width: 580px;
+    border: .9px solid rgb(18, 95, 95) ;
+    border-radius: 15px;
+    margin: 12px;
+}
+.card1{
+    padding: 20px;
+    margin: 12px;
+    height: 280px;
+    width: 580px;
+    background-image: linear-gradient(rgba(218, 85, 85, 0.774),rgb(41, 87, 114));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    border: .9px solid black;
+}
+.card-header{
+    font-weight: 600;
+    font-size: 19px;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card-in{
+    padding: 10px;
+}
+.card2{
+    margin: 12px;
+    padding: 20px;
+    background-image: linear-gradient(rgb(165, 121, 128),rgb(52, 52, 161));
+    height: 280px;
+    width: 580px;
+    border-radius: 15px;
+    border: .9px solid black;
+}
+.containers{
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 850px;
+}
+.mainbody{
+    height: 1200px;
+    background-image: linear-gradient(white,rgb(131, 124, 124));
+}
+.rows{
+    margin-top: 50px;
+    padding: 10px;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.detail{
+    
+    height: 700px;
+    width: 400px;
+    background-image: linear-gradient(rgba(45, 45, 133, 0.89),rgba(11, 11, 73, 0.534));
+}
+.indetail{
+    height: 90px;
+    padding: 15px;
+    color: burlywood;
+}
+.panel{
+    height:450px;
+}
+.acrosspanel{
+        height: 390px;
+}
+.panel-group{
+    height: 62px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.panel-heading{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-heading p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(241, 223, 223);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.pagewrap-main{
+    height: 1080px;
+    width: 1100px;
+
+}
+.pagewrap-heading{
+    height: 140px;
+}
+.main-img{
+    height: 450px;
+    width: 530px;
+    padding-left: 65px;
+    padding-right: 65px;
+    
+}
+.main-img img{
+    height:400px;
+    width: 400px;
+    margin-top: 35px;
+}
+.inpagewrap{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.firstbox{
+    height: 450px;
+    width: 502px;
+    padding: 60px;
+}
+.firstbox p{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
+.secondbox{
+    height: 310px;
+
+}
+p{
+    font-size: 19px;
+    margin-left: 5px;
+    font-family: fantasy;
+}
+ul{
+    font-style: oblique;
+}
+.maindetail{
+    
+    height: 700px;
+    width: 400px;
+    background-image: linear-gradient(rgb(101, 2, 172),rgb(102, 1, 173));
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.horiline{
+    border:2px double black;
+}
+.pagewrap-heading p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.mainbody2{
+    height: 3000px;
+    background-image: linear-gradient(rgb(211, 178, 178),rgb(204, 186, 186));
+}
